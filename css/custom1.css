@@ -32,6 +32,9 @@ body {
   width: 25px;
 }
 
+.social a:hover {
+  text-decoration: none;
+
 .social .fal {
   font-size: 18.5px;
   vertical-align: -3px;
@@ -184,7 +187,7 @@ header.masthead {
 }
 
 .first-slide-position {
-  object-position: 0px -115px;
+  object-position: 0px -75px;
 }
 
 .second-slide-position {
@@ -283,7 +286,8 @@ header.masthead {
 }
 
 .items img {
-  width: 446px;
+  width: 100%;
+  height: auto;
   padding: 0px;
   margin: 0px;
 }
@@ -337,7 +341,8 @@ header.masthead {
 }
 
 .supplier-image img {
-  width: 140px;
+  width: 100%;
+  height: auto;
   margin: 0 auto;
   filter: grayscale(100%);
 }
